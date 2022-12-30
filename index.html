@@ -56,5 +56,43 @@ var _hmt = _hmt || [];
 location.href = 'https://github.com/' + spring.config.owner + '/' + spring.config.repo + '/issues?page=1&state=open'
 </script>
 <![endif]-->
+<div id="bottom_layer" class="s-bottom-layer">
+  <div class="ftCon-Wrapper">
+      <div class="no-qrcode-layer">
+          ©King 版权所有
+          <div class="s-bottom-recordcode">
+              <a href="https://beian.miit.gov.cn" target="_blank">
+                  <i></i>粤ICP备19154141号
+              </a>
+          </div>
+      </div>
+  </div>
+</div>
 </body>
 </html>
+<style>
+  .s-bottom-layer {
+      width: 100%;
+      position: fixed;
+      z-index: 9999;
+      bottom: 0;
+      left: 0;
+      height: 37px;
+      overflow: hidden;
+      color: #999;
+      zoom: 1;
+      margin: 0;
+      background-color: #fafafa;
+  }
+  #bottom_layer .ftCon-Wrapper {
+    line-height: 37px;
+    text-align: center;
+  }
+  #bottom_layer .s-bottom-recordcode {
+    display: inline-block;
+    padding-top: 6px;
+    height: 16px;
+    line-height: 16px;
+    font: 12px arial;
+  }
+</style>
